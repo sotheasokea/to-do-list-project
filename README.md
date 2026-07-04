@@ -4,6 +4,10 @@ A clean, responsive, and user-friendly To-Do List application built with native 
 
 ---
 
+Live Demo: 
+
+---
+
 ## Features
 
 * **Task Management:** Easily add, track, and permanently delete tasks.
@@ -29,7 +33,12 @@ This project solves this design discrepancy using a responsive event listener sw
   class="form-control" 
   id="input-date" 
 />
-## Run the project locally
-```clone the repository:
+```
 
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+## Quick Start / Local Installation
+
+To run this project locally on your machine, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/sotheasokea/to-do-list-project.git
