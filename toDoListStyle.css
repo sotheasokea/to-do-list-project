@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body{
+  font-family: arial;
+  background-color: rgb(209, 230, 240)!important;
+  
+}
+.js-list-box,
+.input-box, .done-list-box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.title-box {
+  text-align: center;
+  justify-content: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  font-weight: 500px;
+  color: rgb(110, 108, 108);
+}
+.to-do-list-logo{
+  min-width: 10px;
+  width: 30px;
+  margin-bottom: 2%;
+}
+.add-to-do-button{
+  background-color: rgb(8, 177, 8);
+  color: white;
+  border: 2px solid rgb(172, 171, 167);
+}
+.add-to-do-button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.todo-item, .done-item{
+  display: flex;
+  justify-content: space-between;
+ background-color: rgb(241, 231, 219);
+  margin: 1%;
+  border: 1px solid black;
+  font-weight: 300px;
+}
+.done-item{
+  background-color: rgb(210, 210, 209);
+}
+
+.done-button{
+  background-color: rgb(175, 226, 245);
+  font-size: clamp(0.5rem, 2.5vw, 0.9rem);
+  align-self: center;
+  border: 1px solid rgb(16, 16, 16);
+}
+.done-button:hover{
+  background-color: rgb(8, 177, 8);
+  color: white;
+}
+.date, .activity, .done-to-do, .done-date, .time, .done-time{
+  align-self: center;
+  font-size: clamp(0.5rem, 3vw, 0.9rem);
+}
+.delete-button{
+  background-color: rgba(220, 229, 162, 0.985);
+  font-size: clamp(0.5rem, 2.5vw, 0.9rem);
+  align-self: center;
+  border: 1px solid rgb(21, 20, 20);
+}
+.delete-button:hover{
+  background-color: rgb(232, 76, 49);
+  color: white;
+}
