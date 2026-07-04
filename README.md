@@ -4,7 +4,7 @@ A clean, responsive, and user-friendly To-Do List application built with native 
 
 ---
 
-Live Demo: 
+Live Demo: https://to-do-list-project-murex.vercel.app/
 
 ---
 
@@ -39,6 +39,6 @@ This project solves this design discrepancy using a responsive event listener sw
 
 To run this project locally on your machine, follow these simple steps:
 
-1. **Clone the repository:**
+**Clone the repository:**
    ```bash
    git clone https://github.com/sotheasokea/to-do-list-project.git
